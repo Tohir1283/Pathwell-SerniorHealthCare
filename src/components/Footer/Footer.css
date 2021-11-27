@@ -1,0 +1,25 @@
+.footerIcon > img {
+  margin-left: 15px;
+  border-radius: 20px;
+  transition: 0.5s linear;
+}
+.footerIcon > img:hover {
+  transform: scale(1.2);
+}
+
+@media only screen and (min-width: 488px) and (max-width: 600px) {
+  .footerIcon {
+    margin-top: 1rem;
+    margin: 2rem auto;
+  }
+  .footerLogo {
+    margin: 1rem auto;
+  }
+  .footerText {
+    margin-left: 20px;
+  }
+  .footerNavbar {
+    width: 100%;
+    padding: 0 auto;
+  }
+}

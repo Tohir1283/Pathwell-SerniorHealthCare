@@ -1,0 +1,51 @@
+.dailyServicesContainer {
+  display: flex;
+  justify-content: space-evenly;
+
+  width: 80rem;
+
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  padding: 3rem 0;
+  font-family: "Playfair Display", serif;
+}
+
+.dailyServices {
+  padding-top: 1.5rem;
+  padding: 15px;
+  transition: 0.6s ease-in-out;
+
+  width: 14rem;
+}
+
+.dailyServices:hover {
+  transform: scale(1.2);
+  box-shadow: 8px 8px 18px darkgray;
+}
+
+.dailyServicesButton {
+  padding: 6px 22px;
+  border-radius: 35px;
+
+  border: 1px solid whitesmoke;
+
+  color: coral;
+  font-weight: bolder;
+  transition: 0.5s linear;
+}
+
+.dailyServicesButton:hover {
+  box-shadow: 5px 5px 5px lightgray;
+  transform: scale(1.1);
+}
+
+@media only screen and (min-width: 488px) and (max-width: 600px) {
+  .dailyServicesContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 1.5rem;
+  }
+}

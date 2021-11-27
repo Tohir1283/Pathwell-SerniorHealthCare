@@ -1,0 +1,48 @@
+.centerInfo {
+  position: absolute;
+  top: 95%;
+  left: 17%;
+  z-index: 1;
+
+  display: flex;
+
+  /* margin: 0 15%; */
+  padding: 3% 10%;
+
+  /* box-shadow: 0px 5px 8px lightgray; */
+
+  background-color: whitesmoke;
+  color: darkslategray;
+  /* font-family: "Playfair Display", serif; */
+}
+
+.centerNumber {
+  margin-right: 180px;
+}
+.centerSchedule:hover,
+.centerNumber:hover {
+  color: coral;
+}
+.centerSchedule {
+  margin-left: 180px;
+}
+
+@media only screen and (min-width: 488px) and (max-width: 600px) {
+  .centerInfo {
+    position: relative;
+
+    padding: 2% 4%;
+    left: 0;
+
+    justify-content: space-between;
+
+    box-shadow: 4px 4px 8px lightgray;
+  }
+
+  .centerNumber {
+    margin: 0;
+  }
+  .centerSchedule {
+    margin-left: 0;
+  }
+}

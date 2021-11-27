@@ -1,0 +1,23 @@
+.aboutInfo {
+  display: flex;
+  margin: 14rem auto;
+  width: 80rem;
+  background-color: #f3f2f0;
+}
+
+.aboutInfo > img {
+  width: 40rem;
+}
+
+@media only screen and (min-width: 488px) and (max-width: 600px) {
+  .aboutInfo {
+    display: block;
+    margin: 3rem auto;
+
+    width: 100%;
+  }
+
+  .aboutInfo > img {
+    width: 100%;
+  }
+}

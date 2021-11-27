@@ -1,0 +1,9 @@
+.isLoading {
+  margin-bottom: 4000px;
+}
+
+@media only screen and (min-width: 488px) and (max-width: 600px) {
+  .isLoading {
+    margin-bottom: 180px;
+  }
+}

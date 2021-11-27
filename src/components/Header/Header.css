@@ -1,0 +1,33 @@
+.headerTop {
+  background-color: #f3f2f0;
+
+  display: flex;
+  justify-content: space-around;
+}
+.callNumber:hover {
+  color: #824f48;
+}
+
+.signOptions {
+  margin-left: 25px;
+
+  text-decoration: none;
+  color: black;
+}
+
+.signOptions:hover {
+  color: #e6b59e;
+}
+
+@media only screen and (min-width: 488px) and (max-width: 600px) {
+  .navContainer {
+    width: 100%;
+  }
+  .callNumber {
+    display: none;
+  }
+
+  .schedule {
+    display: none;
+  }
+}

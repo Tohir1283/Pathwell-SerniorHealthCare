@@ -1,0 +1,16 @@
+.registerForm {
+  width: 700px;
+  height: 510px;
+
+  margin: 2rem auto;
+  padding: 5rem 3rem;
+  text-align: start;
+
+  background-color: #f3f2f0;
+}
+
+@media only screen and (min-width: 488px) and (max-width: 600px) {
+  .registerForm {
+    width: 100%;
+  }
+}

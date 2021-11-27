@@ -1,0 +1,10 @@
+.buttonMore {
+  width: 425px;
+}
+
+@media only screen and (min-width: 488px) and (max-width: 600px) {
+  .serviceContainer {
+    width: 100%;
+    padding: 1rem auto;
+  }
+}

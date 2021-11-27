@@ -1,0 +1,24 @@
+.careGiverServiceContainer {
+  margin: 8rem;
+  display: flex;
+
+  background-color: #f3f2f0;
+  font-family: "Playfair Display", serif;
+}
+
+.careGiverServiceDetails {
+  margin-top: 4rem;
+  padding: 0 5rem;
+  text-align: start;
+}
+
+@media only screen and (min-width: 488px) and (max-width: 600px) {
+  .careGiverServiceContainer {
+    width: 100%;
+    margin: 1rem 0;
+    flex-direction: column;
+  }
+  .imageContainer {
+    width: 100%;
+  }
+}

@@ -1,0 +1,19 @@
+.livingOptions {
+  display: flex;
+  margin: 5rem auto;
+  width: 80rem;
+  background-color: #f3f2f0;
+}
+.livingOptions > img {
+  width: 40rem;
+}
+
+@media only screen and (min-width: 488px) and (max-width: 600px) {
+  .livingOptions {
+    display: block;
+    width: 100%;
+  }
+  .livingOptions > img {
+    width: 30rem;
+  }
+}

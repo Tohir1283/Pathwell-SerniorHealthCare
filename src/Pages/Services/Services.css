@@ -1,0 +1,30 @@
+.servicesContainer {
+  width: 80rem;
+  background-color: #f3f2f0;
+
+  margin: 10rem auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 1rem;
+}
+
+.infoContainer {
+  width: 650px;
+  height: 660px;
+  margin: 5rem auto;
+  padding: 8rem 2rem 2rem 2rem;
+  background-color: #f3f2f0;
+}
+
+@media only screen and (min-width: 488px) and (max-width: 600px) {
+  .infoContainer {
+    width: 100%;
+  }
+  .servicesContainer {
+    margin: 2rem auto;
+    width: 100%;
+    padding: 2rem auto;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -1,0 +1,17 @@
+.contact {
+  height: 24rem;
+  background-color: #f3f2f0;
+  margin: 2rem 22rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media only screen and (min-width: 488px) and (max-width: 600px) {
+  .contact {
+    height: 14rem;
+    display: block;
+    margin: 3rem 2rem;
+    padding: 3rem 1rem;
+  }
+}

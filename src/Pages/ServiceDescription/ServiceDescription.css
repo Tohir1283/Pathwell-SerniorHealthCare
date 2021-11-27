@@ -1,0 +1,16 @@
+.descriptionContainer {
+  width: 60rem;
+  background-color: #f3f2f0;
+
+  margin: 2rem auto;
+  padding: 5rem 6rem;
+
+  text-align: start;
+}
+
+@media only screen and (min-width: 488px) and (max-width: 600px) {
+  .descriptionContainer {
+    width: 100%;
+    padding: 2rem 2.5rem;
+  }
+}

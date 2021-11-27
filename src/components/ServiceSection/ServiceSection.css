@@ -1,0 +1,26 @@
+.dailyServicesButton {
+  text-decoration: none;
+}
+.serviceSection {
+  width: 27rem;
+  margin-bottom: 18px;
+}
+
+.servicesSectionContainer {
+  width: 80rem;
+  background-color: #f3f2f0;
+
+  margin: 10rem auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media only screen and (min-width: 488px) and (max-width: 600px) {
+  .servicesSectionContainer {
+    width: 100%;
+    margin: 2rem 0;
+    padding: 2rem 2rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
